@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Laiba Choudhry
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+mijn startniveau is blauw. Ik vind coderen leuk, maar ik ben nog een beginner, dus is mijn startniveau blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+ik wil zoals surface plane als responsive elementen aan mijn website toepassen, ik wil in beide wel beter worden, dus ga ik proberen om beide onderdelen toe te passen. 
  
 </details>
 
@@ -36,7 +36,7 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Ik weet eerlijk gezegd nog niet watvoor website ik wil maken
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
