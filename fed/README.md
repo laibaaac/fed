@@ -36,7 +36,7 @@ ik wil zoals surface plane als responsive elementen aan mijn website toepassen, 
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik weet eerlijk gezegd nog niet watvoor website ik wil maken
+Ik weet eerlijk gezegd nog niet watvoor website ik wil maken, maar hier is alvast de link naar mijn website https://laibaaac.github.io/fed/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
