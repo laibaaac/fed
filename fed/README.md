@@ -22,7 +22,7 @@ Laiba Choudhry
 mijn startniveau is blauw. Ik vind coderen leuk, maar ik ben nog een beginner, dus is mijn startniveau blauw
 
 #### Je focus:
-ik wil zoals surface plane als responsive elementen aan mijn website toepassen, ik wil in beide wel beter worden, dus ga ik proberen om beide onderdelen toe te passen. 
+Ik wil de surface plane bij mijn website toepassen, de website ziet er best wel basic uit en ik wil de website verder vormgeven. 
  
 </details>
 
@@ -36,7 +36,7 @@ ik wil zoals surface plane als responsive elementen aan mijn website toepassen, 
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik weet eerlijk gezegd nog niet watvoor website ik wil maken, maar hier is alvast de link naar mijn website https://laibaaac.github.io/fed/
+Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil hier de surface plane toepassen 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
