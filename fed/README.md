@@ -36,16 +36,16 @@ Ik wil de surface plane bij mijn website toepassen, de website ziet er best wel 
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil hier de surface plane toepassen 
+Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil met responsive werken en als het kan  
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/images/1e page.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+
 </details>
 
 
