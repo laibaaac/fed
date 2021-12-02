@@ -22,7 +22,7 @@ Laiba Choudhry
 mijn startniveau is blauw. Ik vind coderen leuk, maar ik ben nog een beginner, dus is mijn startniveau blauw
 
 #### Je focus:
-Ik wil de surface plane bij mijn website toepassen, de website ziet er best wel basic uit en ik wil de website verder vormgeven. 
+Ik wil aan responsive werken, de homepage ziet er goed uit wanneer je het kleiner maakt, maar dan kijk je naar de formulieren en andere page's die niet zo goed uit zien als je de scherm groter/ kleiner maakt. Als ik nog de tijd krijg wil ik misschien nog een leuke thema toevoegen en proberen om elementen mooi te laten zien, zo hoop ik een mooi cijfer te krijgen 
  
 </details>
 
