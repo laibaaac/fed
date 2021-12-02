@@ -36,7 +36,7 @@ Ik wil aan responsive werken, de homepage ziet er goed uit wanneer je het kleine
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil met responsive werken en als het kan  
+Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil met responsive werken en als ik nog de tijd heb een eigen kerst thema maken en een paar elementen verbeteren aan de site.   
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
