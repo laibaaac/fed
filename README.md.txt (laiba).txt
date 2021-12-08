@@ -28,7 +28,7 @@ Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil met respo
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/1epage.png" width="375px" alt="omschrijving van de pagina">
+<img src="./images/1epage.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
