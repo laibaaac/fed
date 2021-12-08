@@ -122,6 +122,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+dat er verschillende soorten belemmeringen die je rekening mee moet houden, in de les hadden we 3 tafels waar we verschillende toegankelijkheidstesten deden, dit was heel interessant voor mij. Tijdens de testen ben ik een paar dingen tegengekomen, zoals de screenreader werkt bij mijn website, dat ik met de tab makkelijk door de links heen kan gaan, maar daar kom ik wel een paar problemen tegen. Bij de tafel devices beperkingen  
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
