@@ -32,7 +32,7 @@ hier de naam van de pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="2epage.png" width="375px" alt="omschrijving van de pagina">
+<img src="fed/images/2epage.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
