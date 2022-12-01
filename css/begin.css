@@ -64,26 +64,38 @@
 
 
   @font-face {
-    font-family: myhelveticaFirstFont;
+    font-family: hel-sanserif;
     src: url(../fonts/helvetica-monospaced-w05-paneuropean-roman.woff2);
-    font-weight:400;
+     font-weight:400; 
   }
 
   @font-face {
-    font-family: myhelveticaFirstFont;
+    font-family: helvetica;
     src: url(../fonts/helvetica-monospaced-w05-micro-medium.woff2);
-    font-weight:400;
+    font-weight:500;
   }
 
   @font-face {
-    font-family: myhelveticaFirstFont;
+    font-family: helvetica;
     src: url(../fonts/helvetica-monospaced-w05-text-regular.woff2);
     font-weight:400;
   }
 
 
-/* h1 {
-    font-family: myrobotoFirstFont;
-    font-weight:700;
+ h1:nth-of-type(1){
+    font-family: hel1;
+    /* font-weight:700; */
 
-  } */
+  } 
+
+ h1:nth-of-type(2){
+  font-family: hel2;
+  /* font-weight:700; */
+
+} 
+
+h1:nth-of-type(3){
+  font-family: hel3;
+  /* font-weight:700; */
+
+} 
