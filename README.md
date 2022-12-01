@@ -95,7 +95,7 @@ Ik heb mijn HTML bijna af voor beide pagina's, alleen moet ik een paar images li
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| #Laiba                  | #MENNO                   |#Hilal
+| Laiba                   | Menno                    |Hilal
 | nav                     | CSS GRID                 | Breakdownschets       
 | font                    | Button                   |  
 | CSS bestanden           | Styling                  |
