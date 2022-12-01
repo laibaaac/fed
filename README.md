@@ -11,8 +11,7 @@ Laiba Choudhry
 mijn startniveau is blauw. Ik vind coderen leuk, maar ik ben nog een beginner, dus is mijn startniveau blauw
 
 #### Je focus:
-Ik wil aan responsive werken, de homepage ziet er goed uit wanneer je het kleiner maakt, maar dan kijk je naar de formulieren en andere page's die niet zo goed uit zien als je de scherm groter/ kleiner maakt. Als ik nog de tijd krijg wil ik misschien nog een leuke thema toevoegen en proberen om elementen mooi te laten zien, zo hoop ik een mooi cijfer te krijgen 
-
+Ik wil aan de surface plane werken, ik vind voor zo een groot bedrijf, dat ze echt een mager website hebben. Ten eerste is het niet goed te lezen door een screenreader en ook dat de footer etc heel saai en mager eruit zien. Ik wil met de surface plane verschillende features aan de website toevoegen om het toch wat mooier te maken. 
 </details>
 
 
@@ -25,81 +24,20 @@ Ik wil aan responsive werken, de homepage ziet er goed uit wanneer je het kleine
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik ga aan de slag met de website van weekday (www.weekday.com), ik wil met responsive werken en als ik nog de tijd heb een eigen kerst thema maken en een paar elementen verbeteren aan de site.   
+Ik ga aan de slag met de website van Acne Studios(acnestudios.com), ik heb voor de surface plane gekozen, ik ga aan verschillende features werken, net als animaties bij het drukken van een button. 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/1epage.png" width="375px" alt="omschrijving van de pagina">
+<img src="img/1epage.png" width="375px" alt="de frontpage van de website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src= "fed/images/2epage.png" width "375px" alt="footer">
+<img src= "img/2epagina.png" width "375px" alt="2e pagina over product">
 
 </details>
 
 
-
-## Breakdownschets (week 1)
-
-<details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
-
-### de hele pagina: 
-<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
-
-
-</details>
-
-
-
-
-
-## Voortgang 1 (week 2)
-
-<details open>
-<summary>uitwerken voor 1e voortgang</summary>
-
-### Stand van zaken
-Ik was er jammer genoeg niet aanwezig bij de eerste voortgang vanwege persoonlijke omstandigheden, hierdoor kon ik ook niet ver komen met de website😓
-
-
-</details>
-
-
-
-
-## Voortgang 2 (week 3)
-
-<details>
-<summary>uitwerken voor 2e voortgang</summary>
-
-### Stand van zaken
-Deze week hadden geleerd over grid en media queries. Dit vond ik een belangrijk onderdeel, omdat ik de @media queries moet toepassen in mijn website om het responsive te maken. Bij de 2e voortgang had ik eerlijk gezegd niet veel gedaan aan mijn website, ik was meer bezig met de opdrachten. Ik had wel geprobeerd om @media in mijn css document te zetten, ik speelde hier met de width. Dat ging best wel goed, verder moest ik uitzoeken hoe ik de hele website samen met de afbeeldingen responsive moest maken (duhhh met @media, maar hoe precies?). 
-  
-  
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| Laiba                   |  Nina                    |Hilal
-| ---                     | Afbeelding               | afbeelding achtergrond         
-| naar de                 | banner die niet          | op de website  
-| responsive gedeelte     | meeschaalt               | dat werkt niet
-| bekijken                | ...                      | ...          
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- De docent legde uit hoe ik de afbeeldingen kan laten meeschalen 
-- De docent heeft mij meer verteld over de elementen in mijn website
-
-</details>
-
-
-
-
-
-## Toegankelijkheidstest (week 4)
+## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
@@ -131,6 +69,75 @@ Wanneer de screenreader door je website leest, moet je html kloppen, dus geef ee
 
 
 
+## Breakdownschets (week 1)
+
+<details>
+<summary>uitwerken na afloop 2e werkgroep</summary>
+
+### de hele pagina: 
+<img src=" " width="375px" alt="">
+
+
+</details>
+
+
+
+
+
+## Voortgang 1 (week 2)
+
+<details open>
+<summary>uitwerken voor 1e voortgang</summary>
+
+### Stand van zaken
+Ik heb mijn HTML bijna af voor beide pagina's, alleen moet ik een paar images linken en een paar onderdelen afmaken die ik niet zo goed begreep. Hiervoor heb ik een paar vragen opgesteld die ik aan mijn docent ga vragen. 
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+| Laiba                   | MENNO                    |Hilal
+| nav                     | CSS GRID                 | Breakdownschets       
+| font                    | Button                   |  
+| CSS bestanden           | Styling                  |
+| HTML element            |                          |         
+
+### Verslag van meeting
+
+
+</details>
+
+
+
+
+## Voortgang 2 (week 3)
+
+<details>
+<summary>uitwerken voor 2e voortgang</summary>
+
+### Stand van zaken
+
+  
+### Agenda voor meeting
+samen met je groepje opstellen
+
+
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
 
 ## Voortgang 3 (week 4)
 
@@ -138,25 +145,17 @@ Wanneer de screenreader door je website leest, moet je html kloppen, dus geef ee
 <summary>uitwerken voor 3e voortgang</summary>
   
 ### Stand van zaken
-Laatste voortgang gesprek!!!!
-Voor de laatste voortgang gesprek had ik veel stress, ik was niet zo ver met de website en ik had het eigenlijk opgegeven. Ik hou van coderen en ik wou ook mijn website afwillen maken, maar vanwege een paar zaken die afspeelde, had ik de website niet afkunnen maken. Ik probeerde nog een paar vragen te stellen tijdens de gesprek, zoals klopt mijn html (die had ik al helemaal af)?, hoe moet ik de gif's meeschalen? en een paar dingen over github.
+
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Laiba                           | Nina         |     
-| Klopt html?                     | icons in haar footer              
-| Gif meeschalen?                 | slides afbeeldingen werkt niet             
-|Read.me werkt niet   
-
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Mij html klopt, alleen sections aria label geven.
-- in footer ul en li zetten 
-- Read.me werd in een ander bestand bewerkt
+
 
 </details>
 
@@ -170,11 +169,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
 
 </details>
 
@@ -187,10 +185,5 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. https://codepen.io/shooft/pen/GREMMjV (dit hielp mij met @media)
-2. https://codepen.io/shooft/pen/yLXzvaM 
-3. https://www.youtube.com/watch?v=j1AhSWFcZpg&t=15s (legt @media uit)
 
 </details>
