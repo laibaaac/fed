@@ -1,0 +1,89 @@
+@font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-300.woff);
+    font-weight:300;
+  }
+
+  @font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-400.woff);
+    font-weight:400;
+  }
+
+  @font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-500.woff);
+    font-weight:500;
+  }
+
+  @font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-700.woff);
+    font-weight:700;
+  }
+
+  @font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-900.woff);
+    font-weight:900;
+  }
+
+  @font-face {
+    font-family: myrobotoFirstFont;
+    src: url(../fonts/roboto-400.woff);
+    font-weight:400;
+  }
+
+
+  @font-face {
+    font-family: myrebondFirstFont;
+    src: url(../fonts/rebond-400.woff);
+    font-weight:400;
+  }
+
+
+  @font-face {
+    font-family: myrebondFirstFont;
+    src: url(../fonts/rebond-500.woff);
+    font-weight:500;
+  }
+
+
+  @font-face {
+    font-family: myrebondFirstFont;
+    src: url(../fonts/rebond-600.woff);
+    font-weight:600;
+  }
+
+
+  @font-face {
+    font-family: myrebondFirstFont;
+    src: url(../fonts/rebond-700.woff);
+    font-weight:700;
+  }
+
+
+  @font-face {
+    font-family: myhelveticaFirstFont;
+    src: url(../fonts/helvetica-monospaced-w05-paneuropean-roman.woff2);
+    font-weight:400;
+  }
+
+  @font-face {
+    font-family: myhelveticaFirstFont;
+    src: url(../fonts/helvetica-monospaced-w05-micro-medium.woff2);
+    font-weight:400;
+  }
+
+  @font-face {
+    font-family: myhelveticaFirstFont;
+    src: url(../fonts/helvetica-monospaced-w05-text-regular.woff2);
+    font-weight:400;
+  }
+
+
+/* h1 {
+    font-family: myrobotoFirstFont;
+    font-weight:700;
+
+  } */
