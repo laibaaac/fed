@@ -99,7 +99,7 @@ samen met je groepje opstellen
 | nav                     | CSS GRID                 | Breakdownschets       
 | font                    | Button                   |  
 | CSS bestanden           | Styling                  |
-| HTML element            |                          |         
+| HTML element                                     |         
 
 ### Verslag van meeting
 
