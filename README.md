@@ -115,7 +115,7 @@ samen met je groepje opstellen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-
+Ik ben deze week begonnen met css en ben een paar problemene tegen gekomen, zoals mijn hamburger menu werkt niet, mijn images kan ik niet vinden en een paar vragen zoals formulieren in de surface plane gebruiken
   
 ### Agenda voor meeting
 Laiba: vraag 1 (formulieren):
