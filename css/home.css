@@ -1,0 +1,61 @@
+header{
+  display: flex;
+  justify-content: space space-between;
+}
+
+header > button{
+  background-color: white;
+  border: none;
+
+  order:-100;
+}
+
+header nav {
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:#f00;
+	
+	transform:translateX(-99%);
+	transition:.5s;
+}
+
+header nav.open {
+	transform:translateX(0%);
+}
+
+
+button{
+  background-color: white;
+  border: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+section:nth-of-type(1) {
+  display: flex;
+  justify-items: left;
+
+}
+
+section:nth-of-type(2){
+  display: flex;
+  justify-items: right;
+
+}
+
+section:nth-of-type(3){
+  display: flex;
+  justify-items: left;
+}
+
+
+section:nth-of-type(4){
+  display: flex;
+  justify-items: right;
+}

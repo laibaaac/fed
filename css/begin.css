@@ -1,3 +1,16 @@
+*, *::after, *::before  {
+box-sizing: border-box;
+}
+
+:root {
+  --main-color:black;
+  --main-color-a:black;
+  --background-color:white;
+  --main-header-color:white;
+  --button-background-color:#0318a8;
+}
+
+
 @font-face {
     font-family: myrobotoFirstFont;
     src: url(../fonts/roboto-300.woff);
@@ -76,26 +89,111 @@
   }
 
   @font-face {
-    font-family: helvetica;
-    src: url(../fonts/helvetica-monospaced-w05-text-regular.woff2);
+    font-family: helveticanow;
+    src: url(../fonts/helvetica-now-w05-micro-medium.woff2);
+    font-weight:6000;
+  }
+
+  @font-face {
+    font-family: helveticanowreg;
+    src: url(../fonts/helvetica-now-w05-text-regular.woff2);
     font-weight:400;
   }
 
+  header{
 
- h1:nth-of-type(1){
-    font-family: hel1;
+  }
+
+li{
+  list-style: none;
+}
+
+button{
+  font-family: helveticanowreg; 
+   font-weight:400; 
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+a{
+  color:var( --main-color);
+  font-family: helveticanowreg; 
+   font-weight:400; 
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+p{
+  color:var( --main-color);
+  font-family: hel-sanserif; 
+   font-weight:400; 
+   text-transform: uppercase;
+}
+
+
+
+  /* voorbeeld van dark light mode
+ @media (prefers-color-scheme: dark) {
+    .day.dark-scheme {
+      background: #333;
+      color: white;
+    }
+    .night.dark-scheme {
+      background: black;
+      color: #ddd;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .day.light-scheme {
+      background: white;
+      color: #555;
+    }
+    .night.light-scheme {
+      background: #eee;
+      color: black;
+    }
+  } */
+
+
+
+
+
+
+
+  footer{
+    
+  
+  }
+
+
+
+
+ 
+
+
+   /* h1:nth-of-type(1){ */
+    /* font-family: hel1; */
     /* font-weight:700; */
+  /* }   */
 
-  } 
-
- h1:nth-of-type(2){
-  font-family: hel2;
+ /* h1:nth-of-type(2){ */
+  /* font-family: hel2; */
   /* font-weight:700; */
 
-} 
+/* }  */
 
-h1:nth-of-type(3){
-  font-family: hel3;
+/* h1:nth-of-type(3){ */
+  /* font-family: hel3; */
   /* font-weight:700; */
 
-} 
+/* } */
+
+
+
+
+/*
+css remedy, reset (boxsizing)
+:root (custom properties) (kleuren, kopjes) 
+header 
+footer */
