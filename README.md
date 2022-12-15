@@ -118,7 +118,25 @@ samen met je groepje opstellen
 
   
 ### Agenda voor meeting
-samen met je groepje opstellen
+Laiba: vraag 1 (formulieren):
+Formulieren, hoe moet je erin verwerken?
+Mag ik het verstoppen? 
+(Surface plane)
+vraag 2 (img):
+3 images kan ik nergens vinden (inspect network)
+Vraag 3 (hamburger menu):
+ik zie naast de hamburger menu icon mijn andere icons niet 
+
+Menno: Vraag 1: ik heb een vraag over het semantisch maken van mijn HTML, mijn CSS luistert niet en ik weet niet hoe het komt.
+
+Hilal: Vraag 1: Doe ik de fontface goed op deze manier?
+Vraag 2: Vind een carousel starten lastig, vooral als je bij het swipen de nummers ziet veranderen zoals op mijn site. Hoe kan ik dit het beste aanpakken en heb ik hier javascript voor nodig?
+Vraag 3: Een stukje van me hamburger menu gaat mee bij het scrollen, waardoor komt dit?
+
+Wessel: 
+Vraag 1: Hamburger menu openen lukt, maar weer sluiten lukt niet. Hoe komt dit?
+Vraag 2: Display flex items plaatsen hoe ik wil zonder, losse items van space between
+Vraag 3: Hoe ontwerp je het kruisje dat input form leegt?
 
 
 
