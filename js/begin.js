@@ -1,14 +1,16 @@
 const deMenuButton = document.querySelector("header > button");
-const deNav = document.querySelector("header > nav");
-const deSluitButton = document.querySelector("header nav button");
-const nieuwenav=document.querySelector("")
+const deNav = document.querySelector("header > nav:nth-of-type(2)");
+const deSluitButton = document.querySelector("header nav:nth-of-type(2) button");
 
 
-deMenuButton.addEventListener("click", toggleMenu);
-deSluitButton.addEventListener("click", toggleMenu);
+deMenuButton.addEventListener("click", openMenu);
+deSluitButton.addEventListener("click", closeMenu);
 
-function toggleMenu() {
+function closeMenu() {
 	deNav.classList.remove('open')
-    nieuwenav.classList.add('open')
+}
+
+function openMenu() {
+	deNav.classList.add('open')
 }
 

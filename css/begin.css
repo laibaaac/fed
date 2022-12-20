@@ -101,7 +101,35 @@ box-sizing: border-box;
   }
 
   header{
-
+    display: flex;
+    justify-content: space space-between;
+  }
+  header button{
+   width: 2.5em; 
+  }
+  header > button{
+    background-color: white;
+    border: none;
+     order:-100;
+  }
+  header nav:nth-of-type(1) ul {
+  display: flex;
+  }
+  
+  header nav:nth-of-type(2) {
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:white;
+    
+    transform:translateX(-99%);
+    transition:.5s;
+  }
+  
+  header nav.open {
+    transform:translateX(0%);
   }
 
 li{
@@ -156,15 +184,6 @@ p{
   } */
 
 
-
-
-
-
-
-  footer{
-    
-  
-  }
 
 
 

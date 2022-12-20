@@ -1,36 +1,9 @@
-header{
-  display: flex;
-  justify-content: space space-between;
-}
-
-header > button{
-  background-color: white;
-  border: none;
-
-  order:-100;
-}
-
-header nav {
-	position:fixed;
-	top:0;
-	left:0;
-	bottom:0;
-	right:0;
-	background-color:#f00;
-	
-	transform:translateX(-99%);
-	transition:.5s;
-}
-
-header nav.open {
-	transform:translateX(0%);
-}
-
 
 button{
   background-color: white;
   border: none;
 }
+
 h1{
   visibility: hidden;
   position: absolute;
@@ -38,6 +11,15 @@ h1{
   left: -99999999999999em;
   transform: scale(0.01);
 }
+
+h2{
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -99999999999999em;
+  transform: scale(0.01);
+}
+
 img {
   width: 100%;
   height: 100%;
