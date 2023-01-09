@@ -112,10 +112,29 @@ box-sizing: border-box;
     border: none;
      order:-100;
   }
+  header {
+    position: sticky;
+    top:0;
+    z-index:100;
+    background-color: white;
+  }
   header nav:nth-of-type(1) ul {
-  display: flex;
+  display: grid;
+  grid-template-columns:2em 2em max-content;
+  gap: .2em;
+
   }
   
+  header nav:nth-of-type(1) li{
+    border-left: solid lightgrey .2em;
+    border-right: solid lightgrey .2em;
+  
+  }
+  header nav:nth-of-type(1) img{
+    width:80%; 
+
+  
+  }
   header nav:nth-of-type(2) {
     position:fixed;
     top:0;
@@ -123,14 +142,23 @@ box-sizing: border-box;
     bottom:0;
     right:0;
     background-color:white;
-    
-    transform:translateX(-99%);
-    transition:.5s;
+    transform:translateX(-100%);
   }
   
   header nav.open {
     transform:translateX(0%);
   }
+
+/* header a:nth-of-type(1){
+ 
+  width: 15em;
+  height: auto;
+  background-color: pink;
+  top:20em;
+  left:10em;
+  bottom:50em;
+  right:0em;
+  } */
 
 li{
   list-style: none;

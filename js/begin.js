@@ -13,4 +13,3 @@ function closeMenu() {
 function openMenu() {
 	deNav.classList.add('open')
 }
-
