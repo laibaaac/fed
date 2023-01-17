@@ -2,6 +2,8 @@
 box-sizing: border-box;
 }
 
+
+
 :root {
   --main-color:black;
   --main-color-a:black;
@@ -99,42 +101,48 @@ box-sizing: border-box;
     src: url(../fonts/helvetica-now-w05-text-regular.woff2);
     font-weight:400;
   }
-
+  body{
+    overflow-x: hidden;
+    margin:0;
+  }
   header{
     display: flex;
-    justify-content: space space-between;
-  }
-  header button{
-   width: 2.5em; 
-  }
-  header > button{
-    background-color: white;
-    border: none;
-     order:-100;
-  }
-  header {
+    justify-content: space-between;
     position: sticky;
     top:0;
     z-index:100;
     background-color: white;
   }
+  
+  
   header nav:nth-of-type(1) ul {
   display: grid;
-  grid-template-columns:2em 2em max-content;
-  gap: .2em;
-
+  grid-template-columns:3em 3em 3em;
+  grid-template-rows: 2em;
+  gap: .1em;
   }
   
   header nav:nth-of-type(1) li{
-    border-left: solid lightgrey .2em;
-    border-right: solid lightgrey .2em;
-  
+    border-left: solid lightgrey 1px;
+    border-right: solid lightgrey 1px;
   }
-  header nav:nth-of-type(1) img{
-    width:80%; 
 
   
+  header nav:nth-of-type(1) button{
+    width: 2.5em; 
+   }
+
+  header nav:nth-of-type(1) img{
+    width: 60%; 
   }
+  
+  /* hamburger button */
+  header > button{
+    background-color: white;
+    border: none;
+     order:-100;
+  }
+  
   header nav:nth-of-type(2) {
     position:fixed;
     top:0;
@@ -143,9 +151,11 @@ box-sizing: border-box;
     right:0;
     background-color:white;
     transform:translateX(-100%);
+
   }
   
-  header nav.open {
+  header nav.open,
+  header nav:focus-within {
     transform:translateX(0%);
   }
 
@@ -159,6 +169,11 @@ box-sizing: border-box;
   bottom:50em;
   right:0em;
   } */
+
+ 
+
+
+
 
 li{
   list-style: none;
@@ -184,6 +199,50 @@ p{
   font-family: hel-sanserif; 
    font-weight:400; 
    text-transform: uppercase;
+}
+
+em{
+color: green;
+ font-size: .6em;
+ font-style: normal;
+}
+
+
+
+footer{
+  font-family: helveticanowreg; 
+  font-weight:400px; 
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer nav:nth-of-type(1) ul{
+  padding: 0;
+
+}
+  
+footer nav:nth-of-type(1) li{
+  border: solid ;
+  border-width:1px 1px 1px 1px;
+
+}
+
+
+
+footer nav:nth-of-type(2){
+  display:flex;
+  justify-content: space-between;
+  border:solid;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+footer nav:nth-of-type(2) a{
+display: flex;
+gap: 2px;
+background-color: pink;
 }
 
 
@@ -219,28 +278,3 @@ p{
  
 
 
-   /* h1:nth-of-type(1){ */
-    /* font-family: hel1; */
-    /* font-weight:700; */
-  /* }   */
-
- /* h1:nth-of-type(2){ */
-  /* font-family: hel2; */
-  /* font-weight:700; */
-
-/* }  */
-
-/* h1:nth-of-type(3){ */
-  /* font-family: hel3; */
-  /* font-weight:700; */
-
-/* } */
-
-
-
-
-/*
-css remedy, reset (boxsizing)
-:root (custom properties) (kleuren, kopjes) 
-header 
-footer */
