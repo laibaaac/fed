@@ -49,6 +49,10 @@ function toggleMenu(event) {
 
 
 
+
+
+
+
 // const footerButton = document.querySelector("footer nav ul:first-of-type li:first-of-type button");
 
 // var footerMenu1 = document.querySelector("footer nav ul:first-of-type li:first-of-type ul");
