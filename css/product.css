@@ -1,0 +1,202 @@
+:root {
+	--maxWidth:32rem;
+    --main-color:black;
+    --main-color-a:black;
+    --background-color:white;
+    --main-header-color:white;
+    --button-background-color:#0318a8;
+}
+
+body {
+	grid-template-columns: minmax(auto, var(--maxWidth));
+	justify-content:center;
+}
+
+/* bron: https://codepen.io/shooft/pen/mdBOZLz (sanne code) */
+
+/* eerste carrousel met product foto's */
+.caroCarrousel {
+  position: relative;
+  outline:none;
+}
+
+/* de carrousel elementen container */
+.caroCarrousel > ul {
+  margin: 0; padding: 0;
+  list-style: none;
+  display: flex;
+	
+	/* handmatig scrollen is mogelijk */
+	overflow: hidden;
+	
+	/* snappen als er gescrolled wordt - andere helft bij li */
+  scroll-snap-type: inline mandatory;
+  
+  /* smooth scrollen */
+	scroll-behavior: smooth;
+  
+  /* scrollbar zoveel mogelijk verbergen */
+  -webkit-overflow-scrolling: touch; /* voor iOS*/
+  -ms-overflow-style: none; /* voor IE */
+    scrollbar-width: none; /* voor firefox */
+}
+
+/* scrollbar wordt hier verborgen */
+.caroCarrousel > ul::-webkit-scrollbar {
+  display: none; /* voor chrome, safari en edge*/
+}
+
+
+/* de carrousel elementen */
+.caroCarrousel > ul li {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  /* snappen als er gescrolled wordt - andere helft bij ul */
+	scroll-snap-align:center;
+}
+
+
+/* de img en stijl */
+.caroCarrousel > ul li > img {
+  display: block;
+  width: 100%;
+}
+
+/* scroll buttons styling */
+.caroCarrousel > a {
+  position: absolute;
+  width: 3em;
+  aspect-ratio:1/1;
+  top: calc(50% - 1.5em);
+  display:grid;
+  place-items:center;
+}
+
+/* initieel staan de links "buiten beeld" */
+.caroCarrousel > a[href="previous"] {
+  left:-3.5em;
+}
+.caroCarrousel > a[href="next"] {
+  right: -3.5em;
+}
+
+/* bij hover en focus schuiven de links in beeld */
+.caroCarrousel:hover > a[href="previous"],
+.caroCarrousel:focus-within > a[href="previous"] {
+  left:.5em;
+}
+.caroCarrousel:hover > a[href="next"],
+.caroCarrousel:focus-within > a[href="next"] {
+  right:.5em;
+}
+
+/* prev en next linkbuttons pijltjes */
+.caroCarrousel > a::before,
+.caroCarrousel > a::after {
+  content: "";
+  position: absolute;
+  width: 1em; height: 4px;
+  background-color: black;
+}
+
+.caroCarrousel > a[href=previous]::before {
+	transform-origin: 2px center;
+	transform: translateY(0) rotate(45deg);
+}
+.caroCarrousel > a[href=previous]::after {
+	transform-origin: 2px center;
+	transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel > a[href=next]::before {
+	transform-origin: calc(100% - 2px) center;
+	transform: translateY(0) rotate(45deg);
+}
+.caroCarrousel > a[href=next]::after {
+	transform-origin: calc(100% - 2px) center;
+	transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel > a:hover,
+.caroCarrousel > a:focus {
+ color: none;
+} 
+/* einde carrousel */
+
+
+/* h2 in section verdwijnen*/
+section  h2{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: -99999999999999em;
+    transform: scale(0.01);
+}
+
+
+
+
+
+/* recommended carrousel met scrol */
+ /* bron: https://codepen.io/shooft/pen/abmLRMg?editors=1100 (sanne code) */
+
+ section:nth-of-type(6) {
+    border:solid;
+    border-bottom-width: 0;
+    border-top-width: .1px;
+    border-color: lightgrey;
+    
+ }
+
+section:nth-of-type(6) h3{
+    font-family: helveticanowreg; 
+    font-weight:400px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+section:nth-of-type(6) ul {
+	display: flex;
+	overflow-x: scroll;
+	scroll-snap-type: inline mandatory;
+	scroll-behavior: smooth;
+    padding: 0;
+}
+
+section:nth-of-type(6) > ul::-webkit-scrollbar {
+	display: none;
+}
+section:nth-of-type(6) li {
+	scroll-snap-align:center;
+	display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(6) img {
+	width: 16em;
+	height: auto;
+}
+
+section:nth-of-type(6) li a{
+    font-family: myrebondFirstFont;
+    font-weight: 400px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+    color: #0318a8;
+}
+
+
+section:nth-of-type(6) li p{
+	text-align: right;
+    font-family: myrebondFirstFont;
+    font-weight: 400px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: none;
+
+}
+
+

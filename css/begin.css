@@ -2,8 +2,6 @@
 box-sizing: border-box;
 }
 
-
-
 :root {
   --main-color:black;
   --main-color-a:black;
@@ -136,6 +134,10 @@ box-sizing: border-box;
     width: 60%; 
   }
   
+  header nav:nth-of-type(1) button{
+  border: none;
+  background-color: white;
+}
   /* hamburger button */
   header > button{
     background-color: white;
@@ -159,18 +161,6 @@ box-sizing: border-box;
     transform:translateX(0%);
   }
 
-/* header a:nth-of-type(1){
- 
-  width: 15em;
-  height: auto;
-  background-color: pink;
-  top:20em;
-  left:10em;
-  bottom:50em;
-  right:0em;
-  } */
-
- 
 
 
 
@@ -211,11 +201,13 @@ color: green;
 
 
 
-footer{
+footer  nav:nth-of-type(1){
   font-family: helveticanowreg; 
   font-weight:400px; 
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
+ 
 }
 
 footer nav:nth-of-type(1) ul{
@@ -224,7 +216,7 @@ footer nav:nth-of-type(1) ul{
 }
   
 footer nav:nth-of-type(1) li{
-  border: solid 1px BLACK;
+  border: solid 1px lightgrey;
 }
 
 footer nav:nth-of-type(1) ul ul {
@@ -235,41 +227,54 @@ footer nav:nth-of-type(1) ul ul.open {
   display:block;
 }
 
-
-
-
-/* footer li>ul:nth-of-type(1), footer ul>ul:nth-of-type(2){
-  display:none;
-}  */
-
-/* nav ul li .showUl{
-  display: block;
-} */
-
-/* footer li>ul:nth-of-type(2), footer ul>ul:nth-of-type(3){
-  display: none;
-} */
-
-/* nav ul:nth-of-type(2), ul:nth-of-type(3)  li {
-  display: block;
-}
-
-nav ul ul ul li . */
-
-/* 
-
-footer li>ul:nth-of-type(1) , footer ul>ul:nth-of-type(2){
-display: none;
+footer nav:nth-of-type(1) button {
+font-weight: bold;
+ border: none;
+ background-color: white;
+ padding: 0;
+ margin: 0;
 }
 
 
-nav ul:nth-of-type(2) li:nth-of-type(2) .kijkUl{
-  display: block;
-} */
+
+/* socials */
+footer nav:nth-of-type(2){
+  font-family: helveticanowreg; 
+  font-weight:400px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
+  border:solid;
+  border-color: lightgrey;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+footer nav:nth-of-type(2) a{
+display: flex;
+gap: 2px;
+background-color: pink;
+}
 
 
 
-  /* voorbeeld van dark light mode
+
+
+
+
+
+/* voorbeeld dark light mode
+@media (prefers-color-scheme: dark) {
+    .caroCarrousel {
+      --caroCarrouselMainColor:#ccc;
+      --caroCarrouselShadeColor:#4449;
+    }
+  } */
+ 
+   /* voorbeeld van dark light mode
  @media (prefers-color-scheme: dark) {
     .day.dark-scheme {
       background: #333;
@@ -292,28 +297,5 @@ nav ul:nth-of-type(2) li:nth-of-type(2) .kijkUl{
     }
   } */
 
-
-
-
-
-/* socials */
-footer nav:nth-of-type(2){
-  display:flex;
-  justify-content: space-between;
-  border:solid;
-  border-top-width: 1px;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-right-width: 0;
-}
-
-footer nav:nth-of-type(2) a{
-display: flex;
-gap: 2px;
-background-color: pink;
-}
-
-
- 
 
 
