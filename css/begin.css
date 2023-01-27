@@ -100,7 +100,7 @@ box-sizing: border-box;
     font-weight:400;
   }
   body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin:0;
   }
   header{

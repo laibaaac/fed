@@ -74,13 +74,13 @@ body {
 
 /* initieel staan de links "buiten beeld" */
 .caroCarrousel > a[href="previous"] {
-  left:-3.5em;
+  left:.5em;
 }
 .caroCarrousel > a[href="next"] {
-  right: -3.5em;
+  right:.5em;
 }
 
-/* bij hover en focus schuiven de links in beeld */
+/* bij hover en focus schuiven de links in beeld
 .caroCarrousel:hover > a[href="previous"],
 .caroCarrousel:focus-within > a[href="previous"] {
   left:.5em;
@@ -88,7 +88,7 @@ body {
 .caroCarrousel:hover > a[href="next"],
 .caroCarrousel:focus-within > a[href="next"] {
   right:.5em;
-}
+} */
 
 /* prev en next linkbuttons pijltjes */
 .caroCarrousel > a::before,
@@ -137,8 +137,8 @@ section  h2{
 /* formulier styling*/
 
 section:nth-of-type(2) form{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     font-family: myrobotoFirstFont; 
     font-weight:300px; 
     text-transform: uppercase;
@@ -148,45 +148,71 @@ section:nth-of-type(2) form{
     border-color: lightgrey;
     border-left-width: 0;
     border-right-width: 0;
+    border-bottom-width: 0;
     padding: 2em;
+
+    display:grid;
+    grid-template-columns: 1fr max-content max-content;
+    grid-template-rows: max-content 6em max-content max-content;
+
    
 }
 
-section:nth-of-type(2) form label:nth-of-type(1){
-padding: 1em;
+section:nth-of-type(2) form h3{
+
 position: relative;
-bottom: 1.5em;
+
+font-family: myrobotoFirstFont; 
+font-weight:300px; 
+text-transform: none;
+text-decoration: none;
+font-weight: normal;
+
 }
 
-section:nth-of-type(2) form label:nth-of-type(2){
-    padding: 1em;
+section:nth-of-type(2) form p:nth-of-type(1){
     position: relative;
-    bottom: 4.75em;
-    left: 30em;
-    right: 0;
-}
-
-
-
-section:nth-of-type(2) form label:nth-of-type(3){
-    padding: 1em;
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
     text-transform: none;
-    position: relative;
-    bottom: 6.5em;
-    
+    text-decoration: none;
+    font-weight: normal;
+
+    grid-column-start:2;
+    grid-column-end:4;
+
+    grid-row-start:1;
+
+    justify-self: end;
 }
 
-section:nth-of-type(2) form label:nth-of-type(4){
-    padding: 1em;
+
+
+section:nth-of-type(2) form p:nth-of-type(2){
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+    position: relative;
+
+    grid-column-start:1;
+
+    grid-row-start:2;
+}
+
+section:nth-of-type(2) form p:nth-of-type(3){
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
     color: gray;
-    text-transform: none;
     position: relative;
-    bottom: 6.5em;
+    grid-column-start:1;
+    grid-row-start:3;
  }
- /* section:nth-of-type(2) form input[type="submit"]:nth-of-type(1) {
-    background-color: pink;
 
- } */
 
  /* hier ga ik de add to bag button stijlen */
   section:nth-of-type(2) form input[type="submit"]:nth-of-type(1){
@@ -198,13 +224,17 @@ section:nth-of-type(2) form label:nth-of-type(4){
     text-decoration: none;
     color:white;
     padding: 1em;
-    width: 30em;
+    /* width: 30em; */
     height: 4em;
     border:none;
     overflow:hidden;
     animation: none; 
-    bottom: 5em;
+    /* bottom: 5em; */
 
+    grid-column-start:1;
+    grid-column-end:3;
+
+    grid-row-start:4;
   }
 
 
@@ -228,7 +258,7 @@ section:nth-of-type(2) form label:nth-of-type(4){
     border:solid .1em darkblue;
   }
   
-  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1)::before{
+  /* section:nth-of-type(2) form input[type="submit"]:nth-of-type(1)::before{
     position: absolute;
     content: "";
     width: 20em;
@@ -238,14 +268,14 @@ section:nth-of-type(2) form label:nth-of-type(4){
     background-color:lightblue;
     opacity:80%;
     z-index:-1;
-  }
+  } */
   
-  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1):hover::before{
+  /* section:nth-of-type(2) form input[type="submit"]:nth-of-type(1):hover::before{
     z-index:1;
     animation-name:buttonanimatie;
     animation-duration:2s;
     animation-iteration-count: infinite;
-  }
+  } */
 
   /* like button styling */
   .hartje{
@@ -258,17 +288,25 @@ section:nth-of-type(2) form label:nth-of-type(4){
     border:solid .1em darkblue;
     overflow:hidden;
     animation: none;
-    bottom: 9em;
-    left: 30em;
+    /* bottom: 9em; */
+    /* left: 30em; */
+
+    grid-column-start:3;
+
+    grid-row-start:4;
   }
+
+
+
 
   /* 3e sectie styling */
   section:nth-of-type(3) ul {
-   border: solid;
+   border: solid .1px;
    border-color: lightgray;
     padding: 1em;
-    width: 40em;
+    /* width: 40em; */
     height: 5em;
+    margin: 0;
 
   }
   section:nth-of-type(3) a, p{
