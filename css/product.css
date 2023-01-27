@@ -96,6 +96,7 @@ body {
   content: "";
   position: absolute;
   width: 1em; height: 4px;
+
   background-color: black;
 }
 
@@ -133,6 +134,195 @@ section  h2{
     transform: scale(0.01);
 }
 
+/* formulier styling*/
+
+section:nth-of-type(2) form{
+    display: flex;
+    flex-direction: column;
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+    border:solid;
+    border-color: lightgrey;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding: 2em;
+   
+}
+
+section:nth-of-type(2) form label:nth-of-type(1){
+padding: 1em;
+position: relative;
+bottom: 1.5em;
+}
+
+section:nth-of-type(2) form label:nth-of-type(2){
+    padding: 1em;
+    position: relative;
+    bottom: 4.75em;
+    left: 30em;
+    right: 0;
+}
+
+
+
+section:nth-of-type(2) form label:nth-of-type(3){
+    padding: 1em;
+    text-transform: none;
+    position: relative;
+    bottom: 6.5em;
+    
+}
+
+section:nth-of-type(2) form label:nth-of-type(4){
+    padding: 1em;
+    color: gray;
+    text-transform: none;
+    position: relative;
+    bottom: 6.5em;
+ }
+ /* section:nth-of-type(2) form input[type="submit"]:nth-of-type(1) {
+    background-color: pink;
+
+ } */
+
+ /* hier ga ik de add to bag button stijlen */
+  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1){
+    position:relative;
+    background-color:darkblue;
+    font-family: helveticanowreg; 
+    font-weight:400; 
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+    width: 30em;
+    height: 4em;
+    border:none;
+    overflow:hidden;
+    animation: none; 
+    bottom: 5em;
+
+  }
+
+
+/* tutorial: https://www.youtube.com/watch?v=cH0TC9gWiAg*/
+/* inspo: https://codepen.io/shooft/pen/KKorGPa*/
+/* Hilal heeft mij met keyframes geholpen */
+
+  @keyframes buttonanimatie{
+    0%{
+      transform: translateX(-60%);
+    }
+    100% {
+      transform: translateX(200%);    
+    }
+  }
+  
+
+  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1):hover{
+    background-color:white;
+    color:black;
+    border:solid .1em darkblue;
+  }
+  
+  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1)::before{
+    position: absolute;
+    content: "";
+    width: 20em;
+    top:0;
+    left:0;
+    bottom:0;
+    background-color:lightblue;
+    opacity:80%;
+    z-index:-1;
+  }
+  
+  section:nth-of-type(2) form input[type="submit"]:nth-of-type(1):hover::before{
+    z-index:1;
+    animation-name:buttonanimatie;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+  }
+
+  /* like button styling */
+  .hartje{
+    position:relative;
+    background-color:white;
+    font-family:arial;
+    padding: 1em;
+    width: 5em;
+    height: 4em;
+    border:solid .1em darkblue;
+    overflow:hidden;
+    animation: none;
+    bottom: 9em;
+    left: 30em;
+  }
+
+  /* 3e sectie styling */
+  section:nth-of-type(3) ul {
+   border: solid;
+   border-color: lightgray;
+    padding: 1em;
+    width: 40em;
+    height: 5em;
+
+  }
+  section:nth-of-type(3) a, p{
+    margin: 1em;
+
+  }
+
+  section:nth-of-type(3) a{
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  section:nth-of-type(3) p{
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  section:nth-of-type(4){
+    padding: 1em;
+  }
+  
+  section:nth-of-type(4) p {
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+/* de need help link */
+  section:nth-of-type(5) {
+    border: solid;
+    border-color: lightgray;
+    border-left: 0; 
+    height: 2em;
+
+  }
+
+  section:nth-of-type(5) a{
+    padding: 2em;
+   
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+    color: #0318a8;
+  }
 
 
 
@@ -149,11 +339,12 @@ section  h2{
  }
 
 section:nth-of-type(6) h3{
-    font-family: helveticanowreg; 
-    font-weight:400px; 
+    font-family: myrobotoFirstFont; 
+    font-weight:300px; 
     text-transform: uppercase;
     text-decoration: none;
     font-weight: normal;
+    padding: 1em;
 }
 
 
@@ -180,23 +371,23 @@ section:nth-of-type(6) img {
 }
 
 section:nth-of-type(6) li a{
-    font-family: myrebondFirstFont;
-    font-weight: 400px; 
+    font-family: myrobotoFirstFont;
+    font-weight: 300; 
     text-transform: uppercase;
     text-decoration: none;
     font-weight: normal;
     color: #0318a8;
+  
 }
 
 
 section:nth-of-type(6) li p{
 	text-align: right;
-    font-family: myrebondFirstFont;
-    font-weight: 400px; 
+    font-family: myrobotoFirstFont;
+    font-weight: 300; 
     text-transform: uppercase;
     text-decoration: none;
     font-weight: none;
-
 }
 
 

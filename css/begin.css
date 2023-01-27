@@ -112,6 +112,20 @@ box-sizing: border-box;
     background-color: white;
   }
   
+  header a:nth-of-type(1) {
+    position: relative;
+    top: 5em;
+    bottom: 0;
+    left: 4em;
+    right: 0;
+    order: -1;
+
+  }
+
+  header a:nth-of-type(1) img {
+    width: 10em;
+
+  }
   
   header nav:nth-of-type(1) ul {
   display: grid;

@@ -53,33 +53,3 @@ function toggleMenu(event) {
 
 
 
-// const footerButton = document.querySelector("footer nav ul:first-of-type li:first-of-type button");
-
-// var footerMenu1 = document.querySelector("footer nav ul:first-of-type li:first-of-type ul");
-// const footerCloseButton= document.querySelector("footer li>ul:nth-of-type(1), footer ul>ul:nth-of-type(2)");
-
-
-// var subMenuButton1= document.querySelector("footer nav ul li ul li:first-of-type button");
-// var subMenuButton2 = document.querySelector("footer nav ul li ul li:nth-of-type(2) button");
-// var subMenuButton3 = document.querySelector("footer nav ul li ul li:nth-of-type(3) button");
-
-// var subMenu1 = document.querySelector("footer nav ul ul ul  li li ");
-
-
-
-
-// footerButton.addEventListener("click", openButton);
-
-// subMenuButton1.addEventListener("click", opentje);
-
-
-
-// function openButton() {
-// 	footerMenu1.classList.toggle('showUl')
-// 	console.log('heyyy3')
-// }
-
-// function opentje() {
-// 	subMenu1.classList.toggle('showUl')
-// 	console.log("werkt het");
-// }

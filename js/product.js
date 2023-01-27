@@ -1,3 +1,4 @@
+
 /* bron: https://codepen.io/shooft/pen/mdBOZLz (sanne code) */
 
 function createCaroCarrousel(carrouselID) {
@@ -115,3 +116,7 @@ function createCaroCarrousel(carrouselID) {
 })();
 
 
+function play(){
+    var audio = document.getElementsByClassName(audiotje);
+    audio.play();
+}
