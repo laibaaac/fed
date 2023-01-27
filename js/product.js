@@ -1,4 +1,23 @@
+const addToCartBTN = document.querySelector("section:nth-of-type(2) form input[type='button']:nth-of-type(1)");
+addToCartBTN.addEventListener("click", addToCart);
 
+
+const addToCartAudio = document.querySelector("audio");
+
+
+function addToCart(){
+	addToCartBTN.classList.add("busy");
+
+	addToCartBTN.addEventListener("animationend", iamReady);
+
+	addToCartAudio.play();
+
+	console.log("busy");
+}
+
+function iamReady(){
+	addToCartBTN.classList.remove("busy");
+}
 /* bron: https://codepen.io/shooft/pen/mdBOZLz (sanne code) */
 
 function createCaroCarrousel(carrouselID) {
@@ -116,7 +135,7 @@ function createCaroCarrousel(carrouselID) {
 })();
 
 
-function play(){
-    var audio = document.getElementsByClassName(audiotje);
-    audio.play();
-}
+// function play(){
+//     var audio = document.getElementsByClassName(audiotje);
+//     audio.play();
+// }
