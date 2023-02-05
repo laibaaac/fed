@@ -112,7 +112,7 @@ box-sizing: border-box;
     background-color: white;
   }
   
-  header a:nth-of-type(1) {
+  header > a:nth-of-type(1) {
     position: relative;
     top: 5em;
     bottom: 0;
@@ -173,19 +173,32 @@ box-sizing: border-box;
     background-color: white;
     border: none;
     color: blue;
+    position: absolute;
+    right: 0;
+  }
+
+  .logotje{
+   
+    background-color: pink;
+  
+  }
+  header nav:nth-of-type(2) ul{
+    padding: 0;
+  }
+  header nav:nth-of-type(2) li{
+    border: solid;
+
   }
 
 
-
+  /* door focus within kan je door te tabben de hamburger menu sluiten,
+  heb het even  zodat ik het  */
   header nav.open,
   header nav  /*:focus-within  */ {
     transform:translateX(0%);
   }
 
-
-
-
-
+/* styling van content in body */
 li{
   list-style: none;
 }
@@ -293,9 +306,11 @@ footer nav:nth-of-type(2) li{
   line-height: 30px;
   justify-content: end;
 
-	
 }
 
+footer nav:nth-of-type(2) p{
+margin-right: 2em ;
+}
 
 footer nav:nth-of-type(2) a{
 align-items: right;
