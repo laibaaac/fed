@@ -18,6 +18,7 @@ body {
 .caroCarrousel {
   position: relative;
   outline:none;
+  cursor: zoom-in;
 }
 
 /* de carrousel elementen container */
@@ -80,15 +81,6 @@ body {
   right:.5em;
 }
 
-/* bij hover en focus schuiven de links in beeld
-.caroCarrousel:hover > a[href="previous"],
-.caroCarrousel:focus-within > a[href="previous"] {
-  left:.5em;
-}
-.caroCarrousel:hover > a[href="next"],
-.caroCarrousel:focus-within > a[href="next"] {
-  right:.5em;
-} */
 
 /* prev en next linkbuttons pijltjes */
 .caroCarrousel > a::before,
@@ -235,6 +227,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
     grid-column-end:3;
 
     grid-row-start:4;
+    cursor: pointer;
   }
   
   section:nth-of-type(2) form input[type="button"]:nth-of-type(1).busy{
@@ -265,33 +258,49 @@ section:nth-of-type(2) form p:nth-of-type(3){
   section:nth-of-type(2) form input[type="button"]:nth-of-type(1):hover{
     background-color:white;
     color:black;
-    border:solid .1em darkblue;
+    border:solid .1em var(--button-background-color);
   }
   
  
   /* like button styling */
-  .hartje{
+  .like{
     position:relative;
     background-color:white;
     font-family:arial;
     padding: 1em;
     width: 5em;
     height: 4em;
-    border:solid .1em darkblue;
+    border:solid .1em var(--button-background-color);
     overflow:hidden;
     animation: none;
-    /* bottom: 9em; */
-    /* left: 30em; */
+    color: var(--button-background-color);
+    cursor:pointer;
 
     grid-column-start:3;
 
     grid-row-start:4;
   }
 
+  
+  .like:active {
+    transition:transform 0s;
+    transform:translatey(1px);
+  }
+  
+  
+  /* LIKE BUTTON */
+  section:nth-of-type(2) form input[type="button"]:nth-of-type(2).liked{  
+    background-color:white;
+    color: var(--button-background-color);
+    transition:.3s;
+  }
 
 
 
   /* 3e sectie styling */
+  section:nth-of-type(3){
+    cursor: pointer;
+  }
   section:nth-of-type(3) ul {
    border: solid .1px;
    border-color: lightgray;
@@ -351,7 +360,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
     text-transform: none;
     text-decoration: none;
     font-weight: normal;
-    color: #0318a8;
+    color: var(--button-background-color);
   }
 
 
@@ -406,13 +415,16 @@ section:nth-of-type(6) li a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: normal;
-    color: #0318a8;
+    color: var(--button-background-color);
+    position: relative;
+    right: 2em;
   
 }
 
 
 section:nth-of-type(6) li p{
 	text-align: right;
+    
     font-family: myrobotoFirstFont;
     font-weight: 300; 
     text-transform: uppercase;

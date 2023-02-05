@@ -134,8 +134,27 @@ function createCaroCarrousel(carrouselID) {
   //je kunt hier ook meerdere carrousellen activeren
 })();
 
+const heartButtons = document.querySelectorAll(".like");
 
-// function play(){
-//     var audio = document.getElementsByClassName(audiotje);
-//     audio.play();
-// }
+heartButtons.addEventListener("click", faves);
+
+function faves(event) {
+	const clickedHeart= event.target;
+	const theFish = clickedHeart.classList.toggle("liked");
+	console.log(event.target);
+
+}
+
+
+
+footerButtons.forEach(footerButton => {
+	footerButton.addEventListener("click", toggleMenu);
+});
+
+function toggleMenu(event) {
+	console.log(event.target);
+	const deButton = event.target;
+	const hetMenu = deButton.nextElementSibling;
+}
+
+
