@@ -8,7 +8,6 @@ box-sizing: border-box;
   --background-color:white;
   --main-header-color:white;
   --button-background-color:#0318a8;
-  ----color-background: #38444c;
 
 }
 
@@ -101,11 +100,7 @@ box-sizing: border-box;
     src: url(../fonts/helvetica-now-w05-text-regular.woff2);
     font-weight:400;
   }
-  body{
-    background-color: white;
 
-    margin:0;
-  }
   header{
     display: flex;
     justify-content: space-between;
@@ -114,6 +109,13 @@ box-sizing: border-box;
     z-index:100;
     background-color: white;
   }
+
+  @media (prefers-color-scheme:dark) {
+    header{
+    background-color: #343837;
+    }
+  }
+
   
   header > a:nth-of-type(1) {
     position: relative;
@@ -155,12 +157,28 @@ box-sizing: border-box;
   border: none;
   background-color: white;
 }
+
+@media (prefers-color-scheme:dark) {
+  header nav:nth-of-type(1) button{
+  background-color: #343837;
+  color: white;
+  }
+}
+
   /* hamburger button */
   header > button{
     background-color: white;
     border: none;
      order:-100;
   }
+
+  @media (prefers-color-scheme:dark) {
+    header > button{
+    background-color: #343837;
+    color: white;
+    }
+  }
+  
   
   header nav:nth-of-type(2) {
     position:fixed;
@@ -172,6 +190,12 @@ box-sizing: border-box;
     transform:translateX(-100%);
   }
   
+  @media (prefers-color-scheme:dark) {
+    header nav:nth-of-type(2){
+    background-color: #343837;
+    }
+  }
+  
   header nav:nth-of-type(2) button{
     background-color: white;
     border: none;
@@ -179,6 +203,13 @@ box-sizing: border-box;
     position: absolute;
     right: 0;
     cursor: pointer;
+  }
+
+  @media (prefers-color-scheme:dark) {
+    header nav:nth-of-type(2) button{
+    background-color: #343837;
+    color: white;
+    }
   }
 
   header nav:nth-of-type(2) ul{
@@ -207,6 +238,18 @@ box-sizing: border-box;
     transform:translateX(0%);
   }
 
+  body{
+    background-color: white;
+    margin:0;
+  }
+
+  @media (prefers-color-scheme:dark) {
+    body{
+    background-color: #343837;
+    }
+  }
+
+
 /* styling van content in body */
 li{
   list-style: none;
@@ -229,14 +272,25 @@ a{
 
 a:focus{
   outline: none;
-
 }
+
+@media (prefers-color-scheme:dark) {
+  a{
+  color: white;
+  }
+}
+
 
 p{
   color:var( --main-color);
   font-family: hel-sanserif; 
    font-weight:400; 
    text-transform: uppercase;
+}
+@media (prefers-color-scheme:dark) {
+  p{
+  color: white;
+  }
 }
 
 em{
@@ -366,17 +420,6 @@ footer nav:nth-of-type(2) a:focus{
 
 
 
-
-@media (prefers-color-scheme:dark) {
-  body{
-   background-color: #38444c;
-  }
-
-  button {
-    background-color: #38444c;
-  }   
- 
-}
  
 
 
