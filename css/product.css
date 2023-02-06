@@ -127,10 +127,7 @@ section  h2{
 }
 
 /* formulier styling*/
-
 section:nth-of-type(2) form{
-    /* display: flex; */
-    /* flex-direction: column; */
     font-family: myrobotoFirstFont; 
     font-weight:300px; 
     text-transform: uppercase;
@@ -147,11 +144,9 @@ section:nth-of-type(2) form{
     grid-template-columns: 1fr max-content max-content;
     grid-template-rows: max-content 6em max-content max-content;
 
-   
 }
 
 section:nth-of-type(2) form h3{
-
 position: relative;
 
 font-family: myrobotoFirstFont; 
@@ -159,7 +154,6 @@ font-weight:300px;
 text-transform: none;
 text-decoration: none;
 font-weight: normal;
-
 }
 
 section:nth-of-type(2) form p:nth-of-type(1){
@@ -229,7 +223,8 @@ section:nth-of-type(2) form p:nth-of-type(3){
     grid-row-start:4;
     cursor: pointer;
   }
-  
+
+  /* er wordt via js een class gezet, voor de animatie van de button */
   section:nth-of-type(2) form input[type="button"]:nth-of-type(1).busy{
     /* ipv 90deg kan je ook to right zeggen */
     background-image: linear-gradient(90deg , lightblue 50%, white 50%);
@@ -243,7 +238,6 @@ section:nth-of-type(2) form p:nth-of-type(3){
 
 /* tutorial: https://www.youtube.com/watch?v=cH0TC9gWiAg*/
 /* inspo: https://codepen.io/shooft/pen/KKorGPa*/
-/* Hilal heeft mij met keyframes geholpen */
 
   @keyframes busy{
     0%{
@@ -285,6 +279,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
   .like:active {
     transition:transform 0s;
     transform:translatey(1px);
+    
   }
   
   
@@ -294,26 +289,33 @@ section:nth-of-type(2) form p:nth-of-type(3){
     background-color:white;
     color: var(--button-background-color);
     transition:.3s;
+
   }
 
 
 
-  /* 3e sectie styling */
+  /* 3e sectie, onder button styling */
   section:nth-of-type(3){
     cursor: pointer;
   }
   section:nth-of-type(3) ul {
-   border: solid .1px;
+   border: solid .2px;
    border-color: lightgray;
     padding: 1em;
-    /* width: 40em; */
     height: 5em;
-    margin: 0;
-
+    margin: 5px;
   }
+  section:nth-of-type(3) ul:hover{
+    outline:solid 2px black;
+  }
+
+  section:nth-of-type(3) ul:focus{
+    outline:solid 2px black;
+  }
+
+
   section:nth-of-type(3) a, p{
     margin: 1em;
-
   }
 
   section:nth-of-type(3) a{
@@ -332,6 +334,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
     font-weight: normal;
   }
 
+    /* 4e sectie beschrijving van product styling */
   section:nth-of-type(4){
     padding: 1em;
   }
@@ -344,7 +347,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
     font-weight: normal;
   }
 
-/* de need help link */
+/* 5e sectie de need help link styling */
   section:nth-of-type(5) {
     border: solid;
     border-color: lightgray;
@@ -354,7 +357,6 @@ section:nth-of-type(2) form p:nth-of-type(3){
 
   section:nth-of-type(5) a{
     padding: 2em;
-    
     font-family: myrobotoFirstFont; 
     font-weight:300px; 
     text-transform: none;
@@ -363,7 +365,12 @@ section:nth-of-type(2) form p:nth-of-type(3){
     color: var(--button-background-color);
   }
 
-
+  /* wanneer er getabt wordt, komt wordt de link onderstreept*/
+  section:nth-of-type(5) a:focus{
+    text-decoration: underline;
+  
+  }
+  
 
 
 /* recommended carrousel met scrol */
@@ -392,7 +399,7 @@ section:nth-of-type(6) ul {
 	overflow-x: scroll;
 	scroll-snap-type: inline mandatory;
 	scroll-behavior: smooth;
-    padding: 0;
+  padding: 0;
 }
 
 section:nth-of-type(6) > ul::-webkit-scrollbar {
@@ -401,7 +408,14 @@ section:nth-of-type(6) > ul::-webkit-scrollbar {
 section:nth-of-type(6) li {
 	scroll-snap-align:center;
 	display: flex;
-    flex-direction: column;
+  flex-direction: column;
+}
+
+/* hover lukt wel maar focus niet */
+section:nth-of-type(6) ul li:hover,
+section:nth-of-type(6) ul li:focus {
+  border: solid 2px black;
+  
 }
 
 section:nth-of-type(6) img {
@@ -424,7 +438,6 @@ section:nth-of-type(6) li a{
 
 section:nth-of-type(6) li p{
 	text-align: right;
-    
     font-family: myrobotoFirstFont;
     font-weight: 300; 
     text-transform: uppercase;
@@ -432,6 +445,7 @@ section:nth-of-type(6) li p{
     font-weight: none;
 }
 
+/* footer cardholder (komt erbij) */
 footer nav:nth-of-type(1) li:first-of-type{
   border-top: solid .1px  lightgray;
   font-family: myrobotoFirstFont; 
