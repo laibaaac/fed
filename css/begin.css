@@ -175,20 +175,26 @@ box-sizing: border-box;
     color: blue;
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
 
-  .logotje{
-   
-    background-color: pink;
-  
-  }
   header nav:nth-of-type(2) ul{
     padding: 0;
   }
-  header nav:nth-of-type(2) li{
-    border: solid;
 
+  header nav:nth-of-type(2) li{
+    border: solid 1px lightgrey;
+    padding: 5px;
+    
   }
+  header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(1){
+    border-top: solid 2px black;
+  }
+  header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(2){
+    margin-bottom: 3em;
+  }
+
+
 
 
   /* door focus within kan je door te tabben de hamburger menu sluiten,
@@ -234,15 +240,14 @@ color: green;
 
 
 
-
+/* footer met menutjes */
 footer  nav:nth-of-type(1){
-  font-family: helveticanowreg; 
-  font-weight:400px; 
+  font-family: myrobotoFirstFont; 
+  font-weight: 300px; 
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 6em;
-
  
 }
 
@@ -251,9 +256,10 @@ footer nav:nth-of-type(1) ul{
   margin:0;
 }
   
-footer nav:nth-of-type(1) li{
+/* hier wou ik de main li's en de sub li's een border geven en de li's die erna komen juist niet */
+footer > nav:nth-of-type(1) > ul > li,
+footer > nav:nth-of-type(1) > ul > li > ul > li{
   border: solid 1px lightgrey;
-  /* background-color: pink; */
   height: 100%;
 }
 
@@ -261,20 +267,45 @@ footer nav:nth-of-type(1) ul ul {
   display:none;
 }
 
+footer nav:nth-of-type(1) ul li ul li ul li{
+  font-family: myrobotoFirstFont; 
+  font-weight:300px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 5px;
+  margin: 2px;
+
+}
+
+footer nav:nth-of-type(1) ul li ul li ul li a{
+  font-family: myrobotoFirstFont; 
+  font-weight:300px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+ 
+}
+
 footer nav:nth-of-type(1) ul ul.open {
   display:block;
 }
 
+
+
+
+
+
 footer nav:nth-of-type(1) button {
-  font-family: helveticanowreg; 
-  font-weight:600px; 
+  font-family: myrobotoFirstFont; 
+  font-size:16.5px; 
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: bold;
- border: none;
- background-color: white;
- height: 100%;
- padding: 0;
+  font-weight: normal;
+  border: none;
+  background-color: white;
+  height: 100%;
+  padding: 0;
 
 }
 
@@ -314,7 +345,6 @@ margin-right: 2em ;
 
 footer nav:nth-of-type(2) a{
 align-items: right;
-/* background-color: pink; */
 gap: 1px;
 color: blue;
 }
