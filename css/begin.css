@@ -4,13 +4,23 @@ box-sizing: border-box;
 
 :root {
   --main-color:black;
+  --main-color2:white;
   --main-color-a:black;
   --background-color:white;
   --main-header-color:white;
-  --button-background-color:#0318a8;
 
+  --button-background-color:#0318a8;
+  --atjes-color:#0318a8;
 }
 
+/* Dark theme */
+@media (prefers-color-scheme:dark) {
+  :root{
+    --background-color:#343837;
+    --atjes-color:#ffff;
+    --main-color:#ffff;
+  }
+}
 
 @font-face {
     font-family: myrobotoFirstFont;
@@ -107,14 +117,14 @@ box-sizing: border-box;
     position: sticky;
     top:0;
     z-index:100;
-    background-color: white;
+    background-color: var(--background-color);
   }
 
-  @media (prefers-color-scheme:dark) {
+  /* @media (prefers-color-scheme:dark) {
     header{
     background-color: #343837;
     }
-  }
+  } */
 
   
   header > a:nth-of-type(1) {
@@ -147,6 +157,7 @@ box-sizing: border-box;
   
   header nav:nth-of-type(1) button{
     width: 2.5em; 
+    
    }
 
   header nav:nth-of-type(1) img{
@@ -155,29 +166,30 @@ box-sizing: border-box;
   
   header nav:nth-of-type(1) button{
   border: none;
-  background-color: white;
+  background-color: var(--background-color);
 }
 
-@media (prefers-color-scheme:dark) {
+/* @media (prefers-color-scheme:dark) {
   header nav:nth-of-type(1) button{
   background-color: #343837;
   color: white;
   }
-}
+} */
 
   /* hamburger button */
   header > button{
-    background-color: white;
     border: none;
-     order:-100;
+    order:-100;
+    background-color: var(--background-color);
+    color: var(--main-color);
   }
 
-  @media (prefers-color-scheme:dark) {
+  /* @media (prefers-color-scheme:dark) {
     header > button{
     background-color: #343837;
     color: white;
     }
-  }
+  } */
   
   
   header nav:nth-of-type(2) {
@@ -186,31 +198,20 @@ box-sizing: border-box;
     left:0;
     bottom:0;
     right:0;
-    background-color:white;
+    background-color:var(--background-color);
     transform:translateX(-100%);
   }
   
-  @media (prefers-color-scheme:dark) {
-    header nav:nth-of-type(2){
-    background-color: #343837;
-    }
-  }
   
   header nav:nth-of-type(2) button{
-    background-color: white;
+    background-color: var(--background-color);
     border: none;
-    color: blue;
     position: absolute;
     right: 0;
     cursor: pointer;
+    color: var(--atjes-color);
   }
 
-  @media (prefers-color-scheme:dark) {
-    header nav:nth-of-type(2) button{
-    background-color: #343837;
-    color: white;
-    }
-  }
 
   header nav:nth-of-type(2) ul{
     padding: 0;
@@ -239,15 +240,15 @@ box-sizing: border-box;
   }
 
   body{
-    background-color: white;
+    background-color: var( --background-color);
     margin:0;
   }
 
-  @media (prefers-color-scheme:dark) {
+  /* @media (prefers-color-scheme:dark) {
     body{
     background-color: #343837;
     }
-  }
+  } */
 
 
 /* styling van content in body */
@@ -287,11 +288,7 @@ p{
    font-weight:400; 
    text-transform: uppercase;
 }
-@media (prefers-color-scheme:dark) {
-  p{
-  color: white;
-  }
-}
+
 
 em{
 color: green;
@@ -310,12 +307,16 @@ footer  nav:nth-of-type(1){
   text-decoration: none;
   font-weight: normal;
   margin-bottom: 6em;
- 
+}
+/* hier werkt mijn focus state ook niet */
+footer  nav:nth-of-type(1) ul li:focus-visible{
+  text-decoration: underline;
 }
 
 footer nav:nth-of-type(1) ul{
   padding: 0;
   margin:0;
+ 
 }
   
 /* hier wou ik de main li's en de sub li's een border geven en de li's die erna komen juist niet */
@@ -323,7 +324,9 @@ footer > nav:nth-of-type(1) > ul > li,
 footer > nav:nth-of-type(1) > ul > li > ul > li{
   border: solid 1px lightgrey;
   height: 100%;
+  color: var(--atjes-color);
 }
+
 
 footer nav:nth-of-type(1) ul ul {
   display:none;
@@ -337,7 +340,7 @@ footer nav:nth-of-type(1) ul li ul li ul li{
   font-weight: normal;
   padding: 5px;
   margin: 2px;
-
+  color: var(--atjes-color);
 }
 
 footer nav:nth-of-type(1) ul li ul li ul li a{
@@ -346,15 +349,14 @@ footer nav:nth-of-type(1) ul li ul li ul li a{
   text-transform: uppercase;
   text-decoration: none;
   font-weight: normal;
- 
+  background-color: var(--background-color);
+  color: var(--atjes-color);
+  
 }
 
 footer nav:nth-of-type(1) ul ul.open {
   display:block;
 }
-
-
-
 
 footer nav:nth-of-type(1) button {
   font-family: myrobotoFirstFont; 
@@ -363,12 +365,14 @@ footer nav:nth-of-type(1) button {
   text-decoration: none;
   font-weight: normal;
   border: none;
-  background-color: white;
+  background-color: var(--background-color);
   height: 100%;
   padding: 0;
+  color: var(--main-color);
 }
 
-footer nav:nth-of-type(1) button:focus {
+
+footer nav:nth-of-type(1) button:focus-visible {
   text-decoration: underline;
   outline: none;
 
@@ -397,20 +401,19 @@ footer nav:nth-of-type(2){
 }
 footer nav:nth-of-type(2) li{
   margin-right: 0%; 
-
   line-height: 30px;
   justify-content: end;
 
 }
 
 footer nav:nth-of-type(2) p{
-margin-right: 2em ;
+  margin-right: 2em ;
 }
 
 footer nav:nth-of-type(2) a{
-align-items: right;
-gap: 1px;
-color: blue;
+  align-items: right;
+  gap: 1px;
+  color: var(--atjes-color);
 }
 
 footer nav:nth-of-type(2) a:focus{

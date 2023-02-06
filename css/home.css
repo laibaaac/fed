@@ -1,4 +1,15 @@
+:root {
+  --imageBrightness:1;
+}
 
+/* Dark theme */
+@media (prefers-color-scheme:dark) {
+  :root{
+   
+
+    --imageBrightness:.85;
+  }
+}
 section ul{
   padding:0;
  }
@@ -28,6 +39,7 @@ section ul{
 section h3 {
   position: absolute;
   font-size: 15px;
+  color: black;
  }
 
   section  li:nth-of-type(3)::after{
@@ -70,11 +82,11 @@ section h3 {
 }  
 
 section  li:nth-of-type(4):hover::after{
-content: "explore now";
-font-family: helveticanowreg; 
-font-weight:400; 
-text-transform: uppercase;
-text-decoration: none;
+  content: "explore now";
+  font-family: helveticanowreg; 
+  font-weight:400; 
+  text-transform: uppercase;
+  text-decoration: none;
 } 
 
 
@@ -113,6 +125,8 @@ h2{
 img {
   width: 100%;
   height: auto;
+  /* filter:brightness(var(--imageBrightness));  
+  als ik mijn image brightness wil aanpassen, dan verdwijnt mijn h3*/
 }
 
 
