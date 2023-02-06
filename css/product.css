@@ -289,6 +289,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
   
   
   /* LIKE BUTTON */
+  /* Sanne's code heeft mij hier een beetje geholpen https://codepen.io/shooft/pen/ZExVBVR */
   section:nth-of-type(2) form input[type="button"]:nth-of-type(2).liked{  
     background-color:white;
     color: var(--button-background-color);

@@ -134,6 +134,7 @@ function createCaroCarrousel(carrouselID) {
   //je kunt hier ook meerdere carrousellen activeren
 })();
 
+// bron: https://stackoverflow.com/questions/14615712/toggle-classname-onclick-javascript
 document.querySelector(".like").onclick = function(){
 	if (this.value == "♥"){
 		this.value = "♡";
