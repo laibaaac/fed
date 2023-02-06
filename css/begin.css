@@ -374,23 +374,9 @@ footer nav:nth-of-type(2) a:focus{
 
   button {
     background-color: #38444c;
-  }
-    
-    
+  }   
  
 }
  
-
-
-  /* @media (prefers-color-scheme: light) {
-    .day.light-scheme {
-      background: white;
-      color: #555;
-    }
-    .night.light-scheme {
-      background: #eee;
-      color: black;
-    }
-  }  */
 
 
