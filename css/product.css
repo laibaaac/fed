@@ -29,7 +29,6 @@ body {
 }
 
 /* bron: https://codepen.io/shooft/pen/mdBOZLz (sanne code) */
-
 /* eerste carrousel met product foto's */
 .caroCarrousel {
   position: relative;
@@ -326,7 +325,7 @@ section:nth-of-type(2) form p:nth-of-type(3){
     margin: 5px;
   }
   section:nth-of-type(3) ul:hover{
-    outline:solid 3px;
+    outline:solid 2px;
     color: var(--main-color);
   }
 
@@ -458,7 +457,7 @@ section:nth-of-type(6) li a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: normal;
-    color: var(--button-background-color);
+    color: var(--atjes-color);
     position: relative;
     right: 2em;
   
@@ -474,6 +473,7 @@ section:nth-of-type(6) li p{
     font-weight: none;
 }
 
+/* footer!!! */
 /* footer cardholder (komt erbij) */
 footer nav:nth-of-type(1) li:first-of-type{
   border-top: solid .1px  lightgray;

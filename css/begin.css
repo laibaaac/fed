@@ -4,10 +4,8 @@ box-sizing: border-box;
 
 :root {
   --main-color:black;
-  --main-color2:white;
   --main-color-a:black;
   --background-color:white;
-  --main-header-color:white;
 
   --button-background-color:#0318a8;
   --atjes-color:#0318a8;
@@ -22,6 +20,7 @@ box-sizing: border-box;
   }
 }
 
+/* verschillende fonts */
 @font-face {
     font-family: myrobotoFirstFont;
     src: url(../fonts/roboto-300.woff);
@@ -111,6 +110,7 @@ box-sizing: border-box;
     font-weight:400;
   }
 
+  /* header styling */
   header{
     display: flex;
     justify-content: space-between;
@@ -120,13 +120,7 @@ box-sizing: border-box;
     background-color: var(--background-color);
   }
 
-  /* @media (prefers-color-scheme:dark) {
-    header{
-    background-color: #343837;
-    }
-  } */
-
-  
+  /* normale header, met icons helemaal boven */
   header > a:nth-of-type(1) {
     position: relative;
     top: 5em;
@@ -169,89 +163,66 @@ box-sizing: border-box;
   background-color: var(--background-color);
 }
 
-/* @media (prefers-color-scheme:dark) {
-  header nav:nth-of-type(1) button{
-  background-color: #343837;
-  color: white;
-  }
-} */
+/* begin hamburger button */
+/* > betekent selecteer alle buttons waar de parent de header is */
+header > button{
+  border: none;
+  order:-100;
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
 
-  /* hamburger button */
-  header > button{
-    border: none;
-    order:-100;
-    background-color: var(--background-color);
-    color: var(--main-color);
-  }
+header nav:nth-of-type(2) {
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color:var(--background-color);
+  transform:translateX(-100%);
+}
 
-  /* @media (prefers-color-scheme:dark) {
-    header > button{
-    background-color: #343837;
-    color: white;
-    }
-  } */
+
+header nav:nth-of-type(2) button{
+  background-color: var(--background-color);
+  border: none;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  color: var(--atjes-color);
+}
+
+
+header nav:nth-of-type(2) ul{
+  padding: 0;
+}
+
+header nav:nth-of-type(2) li{
+  border: solid 1px lightgrey;
+  padding: 5px;
   
-  
-  header nav:nth-of-type(2) {
-    position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    background-color:var(--background-color);
-    transform:translateX(-100%);
-  }
-  
-  
-  header nav:nth-of-type(2) button{
-    background-color: var(--background-color);
-    border: none;
-    position: absolute;
-    right: 0;
-    cursor: pointer;
-    color: var(--atjes-color);
-  }
+}
+header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(1){
+  border-top: solid 2px black;
+}
+header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(2){
+  margin-bottom: 3em;
+}
 
 
-  header nav:nth-of-type(2) ul{
-    padding: 0;
-  }
+/* door focus within kan je door te tabben de hamburger menu sluiten,
+heb het even uitgezet zodat ik het met muis het weg kan klikken */
+header nav.open,
+header nav  /*:focus-within  */ {
+  transform:translateX(0%);
+}
 
-  header nav:nth-of-type(2) li{
-    border: solid 1px lightgrey;
-    padding: 5px;
-    
-  }
-  header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(1){
-    border-top: solid 2px black;
-  }
-  header nav:nth-of-type(2) ul:first-of-type li:nth-of-type(2){
-    margin-bottom: 3em;
-  }
+body{
+  background-color: var( --background-color);
+  margin:0;
+}
 
-
-
-
-  /* door focus within kan je door te tabben de hamburger menu sluiten,
-  heb het even  zodat ik het  */
-  header nav.open,
-  header nav  /*:focus-within  */ {
-    transform:translateX(0%);
-  }
-
-  body{
-    background-color: var( --background-color);
-    margin:0;
-  }
-
-  /* @media (prefers-color-scheme:dark) {
-    body{
-    background-color: #343837;
-    }
-  } */
-
-
-/* styling van content in body */
+/* styling van content in body, algemene styling*/
 li{
   list-style: none;
 }
@@ -289,14 +260,12 @@ p{
    text-transform: uppercase;
 }
 
-
+/* in footer is mijn em */
 em{
 color: green;
  font-size: .6em;
  font-style: normal;
 }
-
-
 
 
 /* footer met menutjes */
@@ -323,6 +292,8 @@ footer nav:nth-of-type(1) ul{
 footer > nav:nth-of-type(1) > ul > li,
 footer > nav:nth-of-type(1) > ul > li > ul > li{
   border: solid 1px lightgrey;
+  border-right-width: 0;
+  border-left-width: 0;
   height: 100%;
   color: var(--atjes-color);
 }
@@ -379,7 +350,7 @@ footer nav:nth-of-type(1) button:focus-visible {
 }
 
 
-/* socials */
+/* footer met socials */
 footer nav:nth-of-type(2){
   font-family: helveticanowreg; 
   font-weight:400px; 

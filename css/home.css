@@ -5,16 +5,14 @@
 /* Dark theme */
 @media (prefers-color-scheme:dark) {
   :root{
-   
-
     --imageBrightness:.85;
   }
 }
+/* styling van section (waar alle content in zit) */
 section ul{
   padding:0;
  }
 
- 
  section li:nth-of-type(1) {
 	position:relative;
  }
@@ -39,22 +37,24 @@ section ul{
 section h3 {
   position: absolute;
   font-size: 15px;
+  /* ik wil dat dit zwart blijft */
   color: black;
  }
 
-  section  li:nth-of-type(3)::after{
-    content: "gifts for her";
-    position: absolute;
-    top: 1em;
-    left: 0;
-    right: 0;
-    height: .25em;
-    width: 100%;
-    font-size: 15px;
-    font-family: helveticanowreg; 
-    font-weight:400; 
-    text-transform: uppercase;
-    text-decoration: none;
+ /* hier gebruik after en hover om de h3's tekst te veranderen, 2 sections*/
+section  li:nth-of-type(3)::after{
+  content: "gifts for her";
+  position: absolute;
+  top: 1em;
+  left: 0;
+  right: 0;
+  height: .25em;
+  width: 100%;
+  font-size: 15px;
+  font-family: helveticanowreg; 
+  font-weight:400; 
+  text-transform: uppercase;
+  text-decoration: none;
  }  
 
  section  li:nth-of-type(3):hover::after{
@@ -90,9 +90,7 @@ section  li:nth-of-type(4):hover::after{
 } 
 
 
-
-
- 
+/* grid wordt hier gebruikt om het een beetje responsive te maken, img naast elkaar onder de 32 em */
 @media ( min-width:32em) { 
   section ul {
     display: grid;
