@@ -27,12 +27,12 @@ Ik wil aan de surface plane werken, ik vind voor zo een groot bedrijf, dat ze ec
 Ik ga aan de slag met de website van Acne Studios(acnestudios.com), ik heb voor de surface plane gekozen, ik ga aan verschillende features werken, net als animaties bij het drukken van een button. 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Acne studios homepage
 <img src="img/1epage.png" width="375px" alt="de frontpage van de website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src= "img/2epagina.png" width "375px" alt="2e pagina over product">
+Product pagina "card holder" 
+<img src="img/1epage.png" width="375px" alt="de frontpage van de website">
 
 </details>
 
@@ -150,17 +150,23 @@ Vraag 3: Hoe ontwerp je het kruisje dat input form leegt?
 <summary>uitwerken voor 3e voortgang</summary>
   
 ### laatste loodjes 
-Nou deze week was de laatste week voor het eindgesprek en natuurlijk heb weer veel problemen. 
+Nou deze week was de laatste voortganggesprek en natuurlijk heb weer veel problemen. 
+Ik ben eerlijk gezegd niet zo ver gekomen met mijn website, omdat ik steeds verschillende errors kreeg. 
+Ik ga de laatste voortganggesprek gebruiken voor het stellen van de vragen 
 
 
 ### Agenda voor meeting
 Laiba : 
+1. mijn elementen schieten steeds uit mijn beeld 
+2. hoe moet ik de acne studios logo de sticky vervangen met de add to bag button wanneer het erover heen gaat
+3. het positioneren van een paar elementen gaat niet zo lekker 
 
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
+- de acne studios logo gewoon sticky laten, het is te veel advanced
+- niet met rechts en links te veel positioneren, hierdoor kan het uit de beeld schieten 
+- beter met % werken dan px
 
 
 </details>
@@ -174,7 +180,33 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken voor eindgesprek</summary>
 
-### Stand van zaken
+### tot waar ben ik gekomen? 
+Voor het eindgesprek was ik jammer genoeg niet zo ver gekomen, ik kwam in tijdsnood, waardoor ik heel veel dingen heb gelaten zoals:
+- mijn add to bag button animatie werkte niet, ik kon geen sound op mijn button zetten 
+- mijn like button werkte niet
+- positionering van mijn formulier was niet goed
+- geen dark mode 
+- geen states en hover
+
+Ik miste best wel veel dingen
+
+Gelukkig kon ik wel in het eindgesprek vragen stellen aan de docent, sanne heeft mij geholpoen om een grid te zetten bij mijn formulier, zo kon ik mijn formulier beter positioneren. Verder heeft hij mij ook geholpen met de add to bag button. 
+
+Ik ga proberen om al deze dingen toe te passen voor de herkansing 
+
+
+## herkansing (week 6)
+
+details>
+<summary>uitwerken voor eindgesprek</summary>
+
+### eindelijk af?
+Yes het is mij gelukt om de meeste dingetjes te doen. Ik heb mijn website bijna af kunnen maken. 
+
+Als ik nog meer tijd had zou ik de volgende dingen nog willen uitwerken en de errors willen aanpassen 
+- de nav helemaal uitwerken
+- Bekijken waarom focus niet werkt bij 2 secties (eerder werkte de functie focus niet bij 2 secties bij de product pagina)
+- bij de caroussel recommend, wanneer je over een img hover krijg je verschillende kleuren, ik weet inmiddels dat ik die door ::after kan doen, dus de content een kleur geven een ze verder positiioneren en stylen. 
 
 
 
