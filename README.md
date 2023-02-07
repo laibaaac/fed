@@ -43,26 +43,21 @@ hier de naam van de pagina
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-Er zijn  verschillende soorten belemmeringen waarmee je rekening moet houden, in de les hadden we 3 tafels waar we verschillende toegankelijkheidstesten deden, dit was heel interessant voor mij. Tijdens de testen ben ik een paar dingen tegengekomen, zoals de screenreader werkt bij mijn website, dat ik met de tab makkelijk door de links heen kan gaan, maar daar kom ik wel een paar problemen tegen. Bij de tafel devices beperkingen  
+Er zijn  verschillende soorten belemmeringen waarmee je rekening moet houden, in de les hadden we 3 tafels waar we verschillende toegankelijkheidstesten deden, dit was heel interessant voor mij. Tijdens de testen ben ik een paar dingen tegengekomen
+1 de screenreader werkt bij mijn website, dat ik met de tab makkelijk door de links heen kan gaan, maar bij mijn hamburgermenu kan er door tab niet gesloten worden. 
+ 
 
-#### Titel eerste bevinding
-Tab
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Tab
+Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding) 
 Tijdens de les moesten we met keyboard only navigeren, dit kon alleen met tab. Dus tijdens het maken van je website, moet je rekening houden als je website te navigeren is door tab. (er is een programma op macbook waar je het kan testen)
 
-#### Titel tweede bevinding. 
-Contrast!
-
+#### Contrast  
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 Sommige elementen kunnen mensen met visuele beperkingen niet zien. Zo zijn sommige kleuren niet goed te zien, blur kan je ook heel slecht zien. Kijk goed naar de contrast en dat de belangrijke elementen goed te zien zijn. 
 
-#### Titel volgende bevinding. 
-Correct html
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### correct html 
 Wanneer de screenreader door je website leest, moet je html kloppen, dus geef een label waar je de input van de gebruiker verwacht!
-
+Zo kan de gebruiker beter door de website navigeren met een screenreader, geef aria labels bij img en zo nodig bij forms en andere elementen. 
 
 </details>
 
@@ -81,9 +76,6 @@ Wanneer de screenreader door je website leest, moet je html kloppen, dus geef ee
 </details>
 
 
-
-
-
 ## Voortgang 1 (week 2)
 
 <details open>
@@ -99,15 +91,17 @@ samen met je groepje opstellen
 | nav                     | CSS GRID                 | Breakdownschets       
 | font                    | Button                   |  
 | CSS bestanden           | Styling                  |
-| HTML element                                     |         
+| HTML element                                                
 
 ### Verslag van meeting
+- de footer beter in nesten, verschillende li's met ul's en ook button erin zetten. 
+- elk section moet een h2 hebben, desnoods style je ze anders 
+- hamburger menu, een andere nav maken naast de normale nav en die dan stylen en een js functie aanmaken
+- ik moet 3 css bestanden maken, waar de algemene styling komt en dan styling van 2 pagina's 
+- De fonts van een pagina kan ik vinden via inspecteren en network, daar kan ik img en fonts zoeken 
 
 
 </details>
-
-
-
 
 ## Voortgang 2 (week 3)
 
@@ -116,7 +110,7 @@ samen met je groepje opstellen
 
 ### Stand van zaken
 Ik ben deze week begonnen met css en ben een paar problemene tegen gekomen, zoals mijn hamburger menu werkt niet, mijn images kan ik niet vinden en een paar vragen zoals formulieren in de surface plane gebruiken
-  
+
 ### Agenda voor meeting
 Laiba: vraag 1 (formulieren):
 Formulieren, hoe moet je erin verwerken?
@@ -126,6 +120,8 @@ vraag 2 (img):
 3 images kan ik nergens vinden (inspect network)
 Vraag 3 (hamburger menu):
 ik zie naast de hamburger menu icon mijn andere icons niet 
+Vraag 4 (img naast elkaar zetten):
+Op de homepage heb ik 4 img die de hele ruimte van de website moeten nemen, als ik het kleiner maak staan ze onder elkaar en als ik ze wat groter maak staan 2 img naast elkaar. Hoe kan ik dit het beste aanpakken? 
 
 Menno: Vraag 1: ik heb een vraag over het semantisch maken van mijn HTML, mijn CSS luistert niet en ik weet niet hoe het komt.
 
@@ -139,22 +135,13 @@ Vraag 2: Display flex items plaatsen hoe ik wil zonder, losse items van space be
 Vraag 3: Hoe ontwerp je het kruisje dat input form leegt?
 
 
-
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-
+- formulier kan ik makkelijk bij mijn 2e pagina zetten, dan heb ik 2 sumbit buttons, een add to bag button en een wenslijst button
+- De img kon ik uiteindlijk vinden in de network, ik moets alleen een paar keren refreshen
+- ergens heb ik een andere position hidden of relative gegeven, die heeft sanne meteen aangepast
+- voor de image naast elkaar te zetten, kan ik het beste een grid gebruiken en dan een media query gebruiken om het nog wat responsive te maken. 
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -162,12 +149,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken voor 3e voortgang</summary>
   
-### Stand van zaken
-
+### laatste loodjes 
+Nou deze week was de laatste week voor het eindgesprek en natuurlijk heb weer veel problemen. 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+Laiba : 
+
 
 
 ### Verslag van meeting
@@ -189,19 +177,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 
 
-### Screenshot(s)
-
 
 </details>
-
-
-
 
 
 ## Bronnenlijst
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
+- (code voor caroussel) https://codepen.io/shooft/pen/mdBOZLz
+- (code voor caroussel) https://codepen.io/shooft/pen/abmLRMg?editors=1100
+- (code voor carrousel) https://codepen.io/shooft/pen/dypVaor
+- (tutorial keyframes/ animatie) https://www.youtube.com/watch?v=cH0TC9gWiAg 
 
 
 </details>
