@@ -202,6 +202,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
+*de bronnenlijst
 
 
 </details>
