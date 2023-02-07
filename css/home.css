@@ -8,6 +8,14 @@
     --imageBrightness:.85;
   }
 }
+
+header > a{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50% ,-50% );
+}
+
 /* styling van section (waar alle content in zit) */
 section ul{
   padding:0;
@@ -39,6 +47,7 @@ section h3 {
   font-size: 15px;
   /* ik wil dat dit zwart blijft */
   color: black;
+  z-index: 100;
  }
 
  /* hier gebruik after en hover om de h3's tekst te veranderen, 2 sections*/
@@ -123,9 +132,12 @@ h2{
 img {
   width: 100%;
   height: auto;
-  /* filter:brightness(var(--imageBrightness));  
-  als ik mijn image brightness wil aanpassen, dan verdwijnt mijn h3*/
+  filter:brightness(var(--imageBrightness, 1));  
+  /*als ik mijn image brightness wil aanpassen, dan verdwijnt mijn h3*/
+  /* de ,1 is de fallback voor in light mode - als --imageBrightness nog geen waarde heeft */
 }
+
+
 
 
 

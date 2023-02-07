@@ -121,12 +121,10 @@ box-sizing: border-box;
   }
 
   /* normale header, met icons helemaal boven */
-  header > a:nth-of-type(1) {
+  header > a {
     position: relative;
     top: 5em;
-    bottom: 0;
     left: 4em;
-    right: 0;
     order: -1;
 
   }

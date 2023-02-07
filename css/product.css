@@ -324,10 +324,12 @@ section:nth-of-type(2) form p:nth-of-type(3){
     height: 5em;
     margin: 5px;
   }
-  section:nth-of-type(3) ul:hover{
+  section:nth-of-type(3) ul:hover, 
+  section:nth-of-type(3) ul:focus {
     outline:solid 2px;
     color: var(--main-color);
   }
+
 
 
   section:nth-of-type(3) ul:focus{
