@@ -28,11 +28,13 @@ Ik ga aan de slag met de website van Acne Studios(acnestudios.com), ik heb voor 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Acne studios homepage
-<img src="img/1epage.png" width="375px" alt="de frontpage van de website">
+![ss van page](https://user-images.githubusercontent.com/94360732/217240739-6b2483db-a818-425f-8ca3-de16b8c41bc0.png)
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Product pagina "card holder" 
-<img src="img/1epage.png" width="375px" alt="de frontpage van de website">
+![ss cardholder](https://user-images.githubusercontent.com/94360732/217240751-a647b7d4-0d17-42c9-83a7-15a8119a2b9f.png)
+
 
 </details>
 
@@ -69,8 +71,14 @@ Zo kan de gebruiker beter door de website navigeren met een screenreader, geef a
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src=" " width="375px" alt="">
+### de home page:
+![breakdownschets](https://user-images.githubusercontent.com/94360732/217239651-4d9dce3f-b2ef-4935-bf0b-575529807cb0.jpg)
+
+
+### de product page:
+![Breakdown2](https://user-images.githubusercontent.com/94360732/217239515-d85ed9b7-c2e4-46b1-8817-c43d43b85d77.jpg)
+
+
 
 
 </details>
